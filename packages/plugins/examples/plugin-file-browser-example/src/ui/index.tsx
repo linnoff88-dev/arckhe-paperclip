@@ -103,7 +103,7 @@ const editorLightTheme = EditorView.theme({
   },
 });
 
-const editorDarkHighlightStyle = HighlightStyle.define([
+const editorDARCKHighlightStyle = HighlightStyle.define([
   { tag: tags.keyword, color: "oklch(0.78 0.025 265)" },
   { tag: [tags.name, tags.variableName], color: "oklch(0.88 0.01 255)" },
   { tag: [tags.string, tags.special(tags.string)], color: "oklch(0.80 0.02 170)" },
@@ -508,7 +508,7 @@ export function FilesTab({ context }: PluginDetailTabProps) {
         basicSetup,
         javascript(),
         isDarkMode ? editorDarkTheme : editorLightTheme,
-        syntaxHighlighting(isDarkMode ? editorDarkHighlightStyle : editorLightHighlightStyle),
+        syntaxHighlighting(isDarkMode ? editorDARCKHighlightStyle : editorLightHighlightStyle),
         EditorView.updateListener.of((update) => {
           if (!update.docChanged) return;
           const nextValue = update.state.doc.toString();
