@@ -1,16 +1,16 @@
-﻿<p align="center">
-  <img src="doc/assets/header.png" alt="Paperclip â€” administra o seu negÃ³cio" width="720" />
+ï»¿<p align="center">
+  <img src="doc/assets/header.png" alt="Paperclip ê¢â¬â administra o seu negêÂ³cio" width="720" />
 </p>
 
 <p align="center">
-  <a href="#inicio-rapido"><strong>InÃ­cio RÃ¡pido</strong></a> &middot;
-  <a href="https://paperclip.ing/docs"><strong>DocumentaÃ§Ã£o</strong></a> &middot;
+  <a href="#inicio-rapido"><strong>InêÂ­cio RêÂ¡pido</strong></a> &middot;
+  <a href="https://paperclip.ing/docs"><strong>DocumentaêÂ§êÂ£o</strong></a> &middot;
   <a href="https://github.com/paperclipai/paperclip"><strong>GitHub</strong></a> &middot;
   <a href="https://discord.gg/m4HZY7xNG3"><strong>Discord</strong></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="LicenÃ§a MIT" /></a>
+  <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="LicenêÂ§a MIT" /></a>
   <a href="https://github.com/paperclipai/paperclip/stargazers"><img src="https://img.shields.io/github/stars/paperclipai/paperclip?style=flat" alt="Estrelas" /></a>
   <a href="https://discord.gg/m4HZY7xNG3"><img src="https://img.shields.io/discord/000000000?label=discord" alt="Discord" /></a>
 </p>
@@ -23,27 +23,27 @@
 
 <br/>
 
-## O que Ã© o Paperclip?
+## O que êÂ© o Paperclip?
 
-# OrquestraÃ§Ã£o open-source para empresas sem humanos
+# OrquestraêÂ§êÂ£o open-source para empresas sem humanos
 
-**Se o OpenClaw Ã© um _funcionÃ¡rio_, o Paperclip Ã© a _empresa_**
+**Se o OpenClaw êÂ© um _funcionêÂ¡rio_, o Paperclip êÂ© a _empresa_**
 
-O Paperclip Ã© um servidor Node.js com UI React que orquestra uma equipe de agentes de IA para administrar um negÃ³cio. Traga seus prÃ³prios agentes, defina metas e acompanhe o trabalho e os custos dos seus agentes em um Ãºnico painel.
+O Paperclip êÂ© um servidor Node.js com UI React que orquestra uma equipe de agentes de IA para administrar um negêÂ³cio. Traga seus prêÂ³prios agentes, defina metas e acompanhe o trabalho e os custos dos seus agentes em um êÂºnico painel.
 
-Parece um gerenciador de tarefas â€” mas por baixo tem organogramas, orÃ§amentos, governanÃ§a, alinhamento de metas e coordenaÃ§Ã£o de agentes.
+Parece um gerenciador de tarefas ê¢â¬â mas por baixo tem organogramas, orêÂ§amentos, governanêÂ§a, alinhamento de metas e coordenaêÂ§êÂ£o de agentes.
 
-**Gerencie metas de negÃ³cio, nÃ£o pull requests.**
+**Gerencie metas de negêÂ³cio, nêÂ£o pull requests.**
 
 |        | Passo             | Exemplo                                                                        |
 | ------ | ----------------- | ------------------------------------------------------------------------------ |
-| **01** | Defina a meta     | _"Criar o app #1 de notas com IA atÃ© $1M MRR."_                               |
-| **02** | Contrate a equipe | CEO, CTO, engenheiros, designers, marketeiros â€” qualquer bot, qualquer provedor. |
-| **03** | Aprove e execute  | Revise a estratÃ©gia. Defina orÃ§amentos. DÃª o play. Monitore pelo painel.       |
+| **01** | Defina a meta     | _"Criar o app #1 de notas com IA atêÂ© $1M MRR."_                               |
+| **02** | Contrate a equipe | CEO, CTO, engenheiros, designers, marketeiros ê¢â¬â qualquer bot, qualquer provedor. |
+| **03** | Aprove e execute  | Revise a estratêÂ©gia. Defina orêÂ§amentos. DêÂª o play. Monitore pelo painel.       |
 
 <br/>
 
-> **EM BREVE: Clipmart** â€” Baixe e execute empresas inteiras com um clique. Navegue por templates prÃ©-construÃ­dos â€” estruturas organizacionais completas, configs de agentes e habilidades â€” e importe-os para sua instÃ¢ncia do Paperclip em segundos.
+> **EM BREVE: Clipmart** ê¢â¬â Baixe e execute empresas inteiras com um clique. Navegue por templates prêÂ©-construêÂ­dos ê¢â¬â estruturas organizacionais completas, configs de agentes e habilidades ê¢â¬â e importe-os para sua instêÂ¢ncia do Paperclip em segundos.
 
 <br/>
 
@@ -60,21 +60,21 @@ Parece um gerenciador de tarefas â€” mas por baixo tem organogramas, orÃ§
   </tr>
 </table>
 
-<em>Se consegue receber um heartbeat, estÃ¡ contratado.</em>
+<em>Se consegue receber um heartbeat, estêÂ¡ contratado.</em>
 
 </div>
 
 <br/>
 
-## O Paperclip Ã© para vocÃª se
+## O Paperclip êÂ© para vocêÂª se
 
-- âœ… VocÃª quer construir **empresas autÃ´nomas com IA**
-- âœ… VocÃª **coordena vÃ¡rios agentes diferentes** (OpenClaw, Codex, Claude, Cursor) rumo a um objetivo comum
-- âœ… VocÃª tem **20 terminais Claude Code abertos** e perde o controle do que cada um estÃ¡ fazendo
-- âœ… VocÃª quer agentes rodando **autonomamente 24/7**, mas ainda quer auditar o trabalho e intervir quando necessÃ¡rio
-- âœ… VocÃª quer **monitorar custos** e impor orÃ§amentos
-- âœ… VocÃª quer um processo para gerenciar agentes que **pareÃ§a um gerenciador de tarefas**
-- âœ… VocÃª quer gerenciar seus negÃ³cios autÃ´nomos **do celular**
+- ê¢Åâ¦ VocêÂª quer construir **empresas autêÂ´nomas com IA**
+- ê¢Åâ¦ VocêÂª **coordena vêÂ¡rios agentes diferentes** (OpenClaw, Codex, Claude, Cursor) rumo a um objetivo comum
+- ê¢Åâ¦ VocêÂª tem **20 terminais Claude Code abertos** e perde o controle do que cada um estêÂ¡ fazendo
+- ê¢Åâ¦ VocêÂª quer agentes rodando **autonomamente 24/7**, mas ainda quer auditar o trabalho e intervir quando necessêÂ¡rio
+- ê¢Åâ¦ VocêÂª quer **monitorar custos** e impor orêÂ§amentos
+- ê¢Åâ¦ VocêÂª quer um processo para gerenciar agentes que **pareêÂ§a um gerenciador de tarefas**
+- ê¢Åâ¦ VocêÂª quer gerenciar seus negêÂ³cios autêÂ´nomos **do celular**
 
 <br/>
 
@@ -83,44 +83,44 @@ Parece um gerenciador de tarefas â€” mas por baixo tem organogramas, orÃ§
 <table>
 <tr>
 <td align="center" width="33%">
-<h3>ðŸ”Œ Traga Seu PrÃ³prio Agente</h3>
-Qualquer agente, qualquer runtime, um organograma. Se consegue receber um heartbeat, estÃ¡ contratado.
+<h3>ê°Å¸âÅ Traga Seu PrêÂ³prio Agente</h3>
+Qualquer agente, qualquer runtime, um organograma. Se consegue receber um heartbeat, estêÂ¡ contratado.
 </td>
 <td align="center" width="33%">
-<h3>ðŸŽ¯ Alinhamento de Metas</h3>
-Toda tarefa remonta Ã  missÃ£o da empresa. Os agentes sabem <em>o que</em> fazer e <em>por quÃª</em>.
+<h3>ê°Å¸Å½Â¯ Alinhamento de Metas</h3>
+Toda tarefa remonta êÂ  missêÂ£o da empresa. Os agentes sabem <em>o que</em> fazer e <em>por quêÂª</em>.
 </td>
 <td align="center" width="33%">
-<h3>ðŸ’“ Heartbeats</h3>
-Agentes acordam em um cronograma, verificam o trabalho e agem. DelegaÃ§Ã£o flui para cima e para baixo no organograma.
+<h3>ê°Å¸ââ Heartbeats</h3>
+Agentes acordam em um cronograma, verificam o trabalho e agem. DelegaêÂ§êÂ£o flui para cima e para baixo no organograma.
 </td>
 </tr>
 <tr>
 <td align="center">
-<h3>ðŸ’° Controle de Custos</h3>
-OrÃ§amentos mensais por agente. Quando atingem o limite, param. Sem custos descontrolados.
+<h3>ê°Å¸âÂ° Controle de Custos</h3>
+OrêÂ§amentos mensais por agente. Quando atingem o limite, param. Sem custos descontrolados.
 </td>
 <td align="center">
-<h3>ðŸ¢ Multi-Empresa</h3>
-Um deploy, vÃ¡rias empresas. Isolamento completo de dados. Um painel de controle para seu portfÃ³lio.
+<h3>ê°Å¸ÂÂ¢ Multi-Empresa</h3>
+Um deploy, vêÂ¡rias empresas. Isolamento completo de dados. Um painel de controle para seu portfêÂ³lio.
 </td>
 <td align="center">
-<h3>ðŸŽ« Sistema de Tickets</h3>
-Toda conversa rastreada. Toda decisÃ£o explicada. Rastreamento completo de tool-calls e log de auditoria imutÃ¡vel.
+<h3>ê°Å¸Å½Â« Sistema de Tickets</h3>
+Toda conversa rastreada. Toda decisêÂ£o explicada. Rastreamento completo de tool-calls e log de auditoria imutêÂ¡vel.
 </td>
 </tr>
 <tr>
 <td align="center">
-<h3>ðŸ›¡ï¸ GovernanÃ§a</h3>
-VocÃª Ã© o conselho. Aprove contrataÃ§Ãµes, sobrescreva estratÃ©gias, pause ou encerre qualquer agente â€” a qualquer momento.
+<h3>ê°Å¸âºÂ¡ê¯Â¸Â GovernanêÂ§a</h3>
+VocêÂª êÂ© o conselho. Aprove contrataêÂ§êÂµes, sobrescreva estratêÂ©gias, pause ou encerre qualquer agente ê¢â¬â a qualquer momento.
 </td>
 <td align="center">
-<h3>ðŸ“Š Organograma</h3>
-Hierarquias, cargos, linhas de reporte. Seus agentes tÃªm um chefe, um tÃ­tulo e uma descriÃ§Ã£o de cargo.
+<h3>ê°Å¸âÅ  Organograma</h3>
+Hierarquias, cargos, linhas de reporte. Seus agentes têÂªm um chefe, um têÂ­tulo e uma descriêÂ§êÂ£o de cargo.
 </td>
 <td align="center">
-<h3>ðŸ“± Mobile Ready</h3>
-Monitore e gerencie seus negÃ³cios autÃ´nomos de qualquer lugar.
+<h3>ê°Å¸âÂ± Mobile Ready</h3>
+Monitore e gerencie seus negêÂ³cios autêÂ´nomos de qualquer lugar.
 </td>
 </tr>
 </table>
@@ -131,65 +131,65 @@ Monitore e gerencie seus negÃ³cios autÃ´nomos de qualquer lugar.
 
 | Sem Paperclip                                                                                                                            | Com Paperclip                                                                                                                                     |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| âŒ VocÃª tem 20 abas do Claude Code abertas e nÃ£o consegue rastrear o que cada uma faz. Ao reiniciar, perde tudo.                        | âœ… Tarefas sÃ£o baseadas em tickets, conversas sÃ£o organizadas em threads, sessÃµes persistem entre reinicializaÃ§Ãµes.                               |
-| âŒ VocÃª junta contexto manualmente de vÃ¡rios lugares para lembrar o bot do que estÃ¡ fazendo.                                             | âœ… O contexto flui da tarefa atÃ© o projeto e metas da empresa â€” seu agente sempre sabe o que fazer e por quÃª.                                    |
-| âŒ Pastas de configs de agentes desorganizadas e vocÃª reinventando gestÃ£o de tarefas, comunicaÃ§Ã£o e coordenaÃ§Ã£o entre agentes.           | âœ… O Paperclip oferece organogramas, tickets, delegaÃ§Ã£o e governanÃ§a prontos â€” para vocÃª gerenciar uma empresa, nÃ£o uma pilha de scripts.         |
-| âŒ Loops descontrolados gastam centenas de dÃ³lares em tokens e estouram sua cota antes de vocÃª perceber.                                 | âœ… O rastreamento de custos mostra orÃ§amentos de tokens e limita os agentes quando acabam. A gestÃ£o prioriza com orÃ§amentos.                     |
-| âŒ VocÃª tem jobs recorrentes (suporte, redes sociais, relatÃ³rios) e precisa lembrar de iniciÃ¡-los manualmente.                           | âœ… Heartbeats cuidam do trabalho regular em um cronograma. A gestÃ£o supervisiona.                                                                |
-| âŒ VocÃª tem uma ideia, precisa achar o repo, abrir o Claude Code, manter uma aba aberta e ficar monitorando.                            | âœ… Adicione uma tarefa no Paperclip. Seu agente de cÃ³digo trabalha nela atÃ© terminar. A gestÃ£o revisa o trabalho.                                |
+| ê¢ÂÅ VocêÂª tem 20 abas do Claude Code abertas e nêÂ£o consegue rastrear o que cada uma faz. Ao reiniciar, perde tudo.                        | ê¢Åâ¦ Tarefas sêÂ£o baseadas em tickets, conversas sêÂ£o organizadas em threads, sessêÂµes persistem entre reinicializaêÂ§êÂµes.                               |
+| ê¢ÂÅ VocêÂª junta contexto manualmente de vêÂ¡rios lugares para lembrar o bot do que estêÂ¡ fazendo.                                             | ê¢Åâ¦ O contexto flui da tarefa atêÂ© o projeto e metas da empresa ê¢â¬â seu agente sempre sabe o que fazer e por quêÂª.                                    |
+| ê¢ÂÅ Pastas de configs de agentes desorganizadas e vocêÂª reinventando gestêÂ£o de tarefas, comunicaêÂ§êÂ£o e coordenaêÂ§êÂ£o entre agentes.           | ê¢Åâ¦ O Paperclip oferece organogramas, tickets, delegaêÂ§êÂ£o e governanêÂ§a prontos ê¢â¬â para vocêÂª gerenciar uma empresa, nêÂ£o uma pilha de scripts.         |
+| ê¢ÂÅ Loops descontrolados gastam centenas de dêÂ³lares em tokens e estouram sua cota antes de vocêÂª perceber.                                 | ê¢Åâ¦ O rastreamento de custos mostra orêÂ§amentos de tokens e limita os agentes quando acabam. A gestêÂ£o prioriza com orêÂ§amentos.                     |
+| ê¢ÂÅ VocêÂª tem jobs recorrentes (suporte, redes sociais, relatêÂ³rios) e precisa lembrar de iniciêÂ¡-los manualmente.                           | ê¢Åâ¦ Heartbeats cuidam do trabalho regular em um cronograma. A gestêÂ£o supervisiona.                                                                |
+| ê¢ÂÅ VocêÂª tem uma ideia, precisa achar o repo, abrir o Claude Code, manter uma aba aberta e ficar monitorando.                            | ê¢Åâ¦ Adicione uma tarefa no Paperclip. Seu agente de cêÂ³digo trabalha nela atêÂ© terminar. A gestêÂ£o revisa o trabalho.                                |
 
 <br/>
 
-## Por que o Paperclip Ã© especial
+## Por que o Paperclip êÂ© especial
 
-O Paperclip lida com os detalhes difÃ­ceis de orquestraÃ§Ã£o corretamente.
+O Paperclip lida com os detalhes difêÂ­ceis de orquestraêÂ§êÂ£o corretamente.
 
 |                                        |                                                                                                                   |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **ExecuÃ§Ã£o atÃ´mica.**                  | Checkout de tarefas e enforcement de orÃ§amento sÃ£o atÃ´micos â€” sem trabalho duplicado e sem gastos descontrolados.  |
-| **Estado persistente do agente.**      | Agentes retomam o mesmo contexto da tarefa entre heartbeats, em vez de recomeÃ§ar do zero.                         |
-| **InjeÃ§Ã£o de skills em runtime.**      | Agentes aprendem workflows do Paperclip e contexto do projeto em runtime, sem retreinamento.                      |
-| **GovernanÃ§a com rollback.**           | Gates de aprovaÃ§Ã£o sÃ£o aplicados, mudanÃ§as de config sÃ£o versionadas e erros podem ser revertidos com seguranÃ§a.   |
-| **ExecuÃ§Ã£o orientada a metas.**        | Tarefas carregam toda a ancestralidade de metas, para que os agentes vejam o "porquÃª", nÃ£o apenas o tÃ­tulo.       |
-| **Templates de empresas portÃ¡teis.**   | Exporte/importe orgs, agentes e skills com remoÃ§Ã£o de secrets e tratamento de colisÃµes.                           |
-| **Isolamento multi-empresa real.**     | Toda entidade tem escopo de empresa, entÃ£o um deploy pode rodar vÃ¡rias empresas com dados e auditoria separados.  |
+| **ExecuêÂ§êÂ£o atêÂ´mica.**                  | Checkout de tarefas e enforcement de orêÂ§amento sêÂ£o atêÂ´micos ê¢â¬â sem trabalho duplicado e sem gastos descontrolados.  |
+| **Estado persistente do agente.**      | Agentes retomam o mesmo contexto da tarefa entre heartbeats, em vez de recomeêÂ§ar do zero.                         |
+| **InjeêÂ§êÂ£o de skills em runtime.**      | Agentes aprendem workflows do Paperclip e contexto do projeto em runtime, sem retreinamento.                      |
+| **GovernanêÂ§a com rollback.**           | Gates de aprovaêÂ§êÂ£o sêÂ£o aplicados, mudanêÂ§as de config sêÂ£o versionadas e erros podem ser revertidos com seguranêÂ§a.   |
+| **ExecuêÂ§êÂ£o orientada a metas.**        | Tarefas carregam toda a ancestralidade de metas, para que os agentes vejam o "porquêÂª", nêÂ£o apenas o têÂ­tulo.       |
+| **Templates de empresas portêÂ¡teis.**   | Exporte/importe orgs, agentes e skills com remoêÂ§êÂ£o de secrets e tratamento de colisêÂµes.                           |
+| **Isolamento multi-empresa real.**     | Toda entidade tem escopo de empresa, entêÂ£o um deploy pode rodar vêÂ¡rias empresas com dados e auditoria separados.  |
 
 <br/>
 
-## O que o Paperclip NÃƒO Ã©
+## O que o Paperclip NêÆO êÂ©
 
 |                                      |                                                                                                                          |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| **NÃ£o Ã© um chatbot.**                | Agentes tÃªm empregos, nÃ£o janelas de chat.                                                                               |
-| **NÃ£o Ã© um framework de agentes.**   | NÃ£o dizemos como construir agentes. Dizemos como administrar uma empresa feita deles.                                    |
-| **NÃ£o Ã© um construtor de workflows.**| Sem pipelines drag-and-drop. O Paperclip modela empresas â€” com organogramas, metas, orÃ§amentos e governanÃ§a.             |
-| **NÃ£o Ã© um gerenciador de prompts.** | Agentes trazem seus prÃ³prios prompts, modelos e runtimes. O Paperclip gerencia a organizaÃ§Ã£o em que trabalham.            |
-| **NÃ£o Ã© ferramenta de agente Ãºnico.**| Isso Ã© para equipes. Se vocÃª tem um agente, provavelmente nÃ£o precisa do Paperclip. Se tem vinte â€” com certeza precisa.  |
-| **NÃ£o Ã© ferramenta de code review.** | O Paperclip orquestra trabalho, nÃ£o pull requests. Traga seu prÃ³prio processo de revisÃ£o.                                |
+| **NêÂ£o êÂ© um chatbot.**                | Agentes têÂªm empregos, nêÂ£o janelas de chat.                                                                               |
+| **NêÂ£o êÂ© um framework de agentes.**   | NêÂ£o dizemos como construir agentes. Dizemos como administrar uma empresa feita deles.                                    |
+| **NêÂ£o êÂ© um construtor de workflows.**| Sem pipelines drag-and-drop. O Paperclip modela empresas ê¢â¬â com organogramas, metas, orêÂ§amentos e governanêÂ§a.             |
+| **NêÂ£o êÂ© um gerenciador de prompts.** | Agentes trazem seus prêÂ³prios prompts, modelos e runtimes. O Paperclip gerencia a organizaêÂ§êÂ£o em que trabalham.            |
+| **NêÂ£o êÂ© ferramenta de agente êÂºnico.**| Isso êÂ© para equipes. Se vocêÂª tem um agente, provavelmente nêÂ£o precisa do Paperclip. Se tem vinte ê¢â¬â com certeza precisa.  |
+| **NêÂ£o êÂ© ferramenta de code review.** | O Paperclip orquestra trabalho, nêÂ£o pull requests. Traga seu prêÂ³prio processo de revisêÂ£o.                                |
 
 <br/>
 
-## InÃ­cio RÃ¡pido
+## InêÂ­cio RêÂ¡pido
 
 Open source. Self-hosted. Sem necessidade de conta no Paperclip.
 
 > **Requisitos:** Node.js 20+, pnpm 9.15+
 
-### OpÃ§Ã£o 1: npx (mais simples)
+### OpêÂ§êÂ£o 1: npx (mais simples)
 
 ```bash
 npx paperclipai onboard --yes
 ```
 
 Isso faz tudo automaticamente:
-1. Cria o diretÃ³rio `~/.paperclip/` com configs, logs e dados
+1. Cria o diretêÂ³rio `~/.paperclip/` com configs, logs e dados
 2. Inicia um PostgreSQL embarcado na porta **54329**
 3. Sobe o servidor na porta **3100**
 4. Abre o navegador em `http://localhost:3100`
 
-O modo padrÃ£o Ã© `local_trusted` (sem login, acesso somente local).
+O modo padrêÂ£o êÂ© `local_trusted` (sem login, acesso somente local).
 
-#### Comandos Ãºteis apÃ³s a instalaÃ§Ã£o
+#### Comandos êÂºteis apêÂ³s a instalaêÂ§êÂ£o
 
 ```bash
 npx paperclipai run                  # Iniciar o servidor
@@ -199,11 +199,11 @@ npx paperclipai auth bootstrap-ceo   # Gerar convite de admin (modo autenticado)
 npx paperclipai db:backup            # Backup manual do banco
 ```
 
-#### O que Ã© criado no sistema
+#### O que êÂ© criado no sistema
 
-| O quÃª | Onde |
+| O quêÂª | Onde |
 |-------|------|
-| ConfiguraÃ§Ã£o | `~/.paperclip/instances/default/config.json` |
+| ConfiguraêÂ§êÂ£o | `~/.paperclip/instances/default/config.json` |
 | Banco de dados | `~/.paperclip/instances/default/db/` |
 | Logs | `~/.paperclip/instances/default/logs/` |
 | Backups | `~/.paperclip/instances/default/data/backups/` |
@@ -211,17 +211,17 @@ npx paperclipai db:backup            # Backup manual do banco
 | Storage | `~/.paperclip/instances/default/data/storage/` |
 | JWT Secret | `~/.paperclip/instances/default/.env` |
 
-#### DesinstalaÃ§Ã£o
+#### DesinstalaêÂ§êÂ£o
 
-Para remover completamente, basta apagar o diretÃ³rio:
+Para remover completamente, basta apagar o diretêÂ³rio:
 
 ```bash
 rm -rf ~/.paperclip
 ```
 
-Nenhum serviÃ§o Ã© instalado no sistema, nenhuma configuraÃ§Ã£o global Ã© alterada.
+Nenhum serviêÂ§o êÂ© instalado no sistema, nenhuma configuraêÂ§êÂ£o global êÂ© alterada.
 
-### OpÃ§Ã£o 2: Clone do repositÃ³rio
+### OpêÂ§êÂ£o 2: Clone do repositêÂ³rio
 
 ```bash
 git clone https://github.com/paperclipai/paperclip.git
@@ -230,11 +230,11 @@ pnpm install
 pnpm dev
 ```
 
-### OpÃ§Ã£o 3: Docker
+### OpêÂ§êÂ£o 3: Docker
 
-O Docker isola tudo dentro do container â€” ideal para evitar conflitos com o sistema.
+O Docker isola tudo dentro do container ê¢â¬â ideal para evitar conflitos com o sistema.
 
-**1. Clone o repositÃ³rio e crie o arquivo `.env`:**
+**1. Clone o repositêÂ³rio e crie o arquivo `.env`:**
 
 ```bash
 git clone https://github.com/paperclipai/paperclip.git
@@ -242,7 +242,7 @@ cd paperclip
 echo "BETTER_AUTH_SECRET=$(openssl rand -hex 32)" > .env
 ```
 
-**2. (Opcional) Para acessar de outra mÃ¡quina na rede,** crie um `docker-compose.override.yml`:
+**2. (Opcional) Para acessar de outra mêÂ¡quina na rede,** crie um `docker-compose.override.yml`:
 
 ```yaml
 services:
@@ -257,7 +257,7 @@ volumes:
   paperclip-data:
 ```
 
-Substitua `SEU_IP` pelo IP da mÃ¡quina (ex: `192.168.1.91`).
+Substitua `SEU_IP` pelo IP da mêÂ¡quina (ex: `192.168.1.91`).
 
 **3. Suba o container:**
 
@@ -271,7 +271,7 @@ docker compose -f docker-compose.quickstart.yml -f docker-compose.override.yml u
 
 **4. Gere o convite de admin:**
 
-No modo Docker, o Paperclip roda em modo `authenticated`. VocÃª precisa gerar um link de convite:
+No modo Docker, o Paperclip roda em modo `authenticated`. VocêÂª precisa gerar um link de convite:
 
 ```bash
 docker exec paperclip-paperclip-1 node \
@@ -279,9 +279,9 @@ docker exec paperclip-paperclip-1 node \
   cli/src/index.ts onboard --yes
 ```
 
-O link de convite aparecerÃ¡ no output. Abra-o no navegador para criar sua conta de admin.
+O link de convite aparecerêÂ¡ no output. Abra-o no navegador para criar sua conta de admin.
 
-**5. Comandos Ãºteis:**
+**5. Comandos êÂºteis:**
 
 ```bash
 # Ver logs
@@ -290,13 +290,13 @@ docker compose -f docker-compose.quickstart.yml logs -f
 # Parar
 docker compose -f docker-compose.quickstart.yml down
 
-# Reiniciar apÃ³s mudanÃ§as no cÃ³digo
+# Reiniciar apêÂ³s mudanêÂ§as no cêÂ³digo
 docker compose -f docker-compose.quickstart.yml up --build -d
 ```
 
 <br/>
 
-## AutenticaÃ§Ã£o dos Agentes (Claude Code, Codex)
+## AutenticaêÂ§êÂ£o dos Agentes (Claude Code, Codex)
 
 Os agentes precisam estar autenticados para funcionar. Existem duas formas:
 
@@ -313,7 +313,7 @@ E reinicie o servidor (ou o container Docker).
 
 ### Via OAuth (login interativo)
 
-Se vocÃª usa Claude Code ou Codex com assinatura (sem API key), faÃ§a login diretamente:
+Se vocêÂª usa Claude Code ou Codex com assinatura (sem API key), faêÂ§a login diretamente:
 
 **No modo npx (local):**
 
@@ -329,7 +329,7 @@ docker exec -it paperclip-paperclip-1 claude login
 docker exec -it paperclip-paperclip-1 codex login
 ```
 
-SerÃ¡ exibido um link no terminal. Abra-o no navegador, autorize, e o CLI ficarÃ¡ autenticado dentro do ambiente.
+SerêÂ¡ exibido um link no terminal. Abra-o no navegador, autorize, e o CLI ficarêÂ¡ autenticado dentro do ambiente.
 
 **Verificando se funcionou:**
 
@@ -341,45 +341,45 @@ claude -p "say hello" --max-turns 1
 docker exec paperclip-paperclip-1 claude -p "say hello" --max-turns 1
 ```
 
-Depois de autenticado, vÃ¡ atÃ© o agente no Paperclip e clique em **"Test now"** na seÃ§Ã£o "Adapter environment check" para confirmar.
+Depois de autenticado, vêÂ¡ atêÂ© o agente no Paperclip e clique em **"Test now"** na seêÂ§êÂ£o "Adapter environment check" para confirmar.
 
 <br/>
 
 ## Notas para Windows
 
-O Paperclip funciona no Windows, mas com algumas limitaÃ§Ãµes importantes:
+O Paperclip funciona no Windows, mas com algumas limitaêÂ§êÂµes importantes:
 
-### PostgreSQL embarcado e permissÃµes de Administrador
+### PostgreSQL embarcado e permissêÂµes de Administrador
 
-O PostgreSQL **nÃ£o pode ser executado como Administrador** no Windows. Isso Ã© uma restriÃ§Ã£o de seguranÃ§a do prÃ³prio PostgreSQL, nÃ£o do Paperclip.
+O PostgreSQL **nêÂ£o pode ser executado como Administrador** no Windows. Isso êÂ© uma restriêÂ§êÂ£o de seguranêÂ§a do prêÂ³prio PostgreSQL, nêÂ£o do Paperclip.
 
-**O problema:** Se vocÃª abrir o terminal (PowerShell/CMD) como Administrador e rodar `npx paperclipai onboard --yes`, o PostgreSQL embarcado vai falhar com erro de permissÃ£o, pois o processo Node.js herda os privilÃ©gios elevados.
+**O problema:** Se vocêÂª abrir o terminal (PowerShell/CMD) como Administrador e rodar `npx paperclipai onboard --yes`, o PostgreSQL embarcado vai falhar com erro de permissêÂ£o, pois o processo Node.js herda os privilêÂ©gios elevados.
 
-**SoluÃ§Ã£o:** Rode o Paperclip em um terminal **sem** privilÃ©gios de Administrador:
-- Abra o PowerShell ou CMD normalmente (nÃ£o use "Executar como administrador")
+**SoluêÂ§êÂ£o:** Rode o Paperclip em um terminal **sem** privilêÂ©gios de Administrador:
+- Abra o PowerShell ou CMD normalmente (nêÂ£o use "Executar como administrador")
 - Se precisar de Administrador para outra coisa, use um terminal separado
 
-### RecomendaÃ§Ãµes para Windows
+### RecomendaêÂ§êÂµes para Windows
 
-| MÃ©todo | Compatibilidade |
+| MêÂ©todo | Compatibilidade |
 |--------|----------------|
-| **Docker Desktop** | Melhor opÃ§Ã£o â€” tudo isolado, sem problemas de permissÃ£o |
-| **WSL2** | Funciona como Linux nativo, sem limitaÃ§Ãµes |
-| **Windows nativo** | Funciona, mas **nÃ£o rode como Administrador** e os adaptadores de agentes podem ter problemas com paths |
+| **Docker Desktop** | Melhor opêÂ§êÂ£o ê¢â¬â tudo isolado, sem problemas de permissêÂ£o |
+| **WSL2** | Funciona como Linux nativo, sem limitaêÂ§êÂµes |
+| **Windows nativo** | Funciona, mas **nêÂ£o rode como Administrador** e os adaptadores de agentes podem ter problemas com paths |
 
 ### Problemas conhecidos no Windows nativo
 
-- **Adaptadores de agentes** usam `child_process.spawn` com comandos que assumem Unix â€” podem falhar
-- **Paths com `\`** â€” o cÃ³digo usa `node:path` mas nÃ£o foi testado extensivamente no Windows
-- **Scripts shell** (`.sh`) do repositÃ³rio nÃ£o rodam nativamente no Windows
+- **Adaptadores de agentes** usam `child_process.spawn` com comandos que assumem Unix ê¢â¬â podem falhar
+- **Paths com `\`** ê¢â¬â o cêÂ³digo usa `node:path` mas nêÂ£o foi testado extensivamente no Windows
+- **Scripts shell** (`.sh`) do repositêÂ³rio nêÂ£o rodam nativamente no Windows
 
-**RecomendaÃ§Ã£o:** Use **Docker Desktop** ou **WSL2** no Windows para evitar todos esses problemas.
+**RecomendaêÂ§êÂ£o:** Use **Docker Desktop** ou **WSL2** no Windows para evitar todos esses problemas.
 
 <br/>
 
 ## Portas utilizadas
 
-| Porta | ServiÃ§o |
+| Porta | ServiêÂ§o |
 |-------|---------|
 | **3100** | Servidor HTTP do Paperclip (API + UI) |
 | **54329** | PostgreSQL embarcado (somente modo local) |
@@ -388,24 +388,24 @@ O PostgreSQL **nÃ£o pode ser executado como Administrador** no Windows. Isso �
 
 ## FAQ
 
-**Como Ã© um setup tÃ­pico?**
-Localmente, um Ãºnico processo Node.js gerencia um Postgres embarcado e armazenamento local de arquivos. Para produÃ§Ã£o, aponte para seu prÃ³prio Postgres e faÃ§a deploy como preferir. Configure projetos, agentes e metas â€” os agentes cuidam do resto.
+**Como êÂ© um setup têÂ­pico?**
+Localmente, um êÂºnico processo Node.js gerencia um Postgres embarcado e armazenamento local de arquivos. Para produêÂ§êÂ£o, aponte para seu prêÂ³prio Postgres e faêÂ§a deploy como preferir. Configure projetos, agentes e metas ê¢â¬â os agentes cuidam do resto.
 
-Se vocÃª Ã© um empreendedor solo, pode usar o Tailscale para acessar o Paperclip de qualquer lugar. Depois pode fazer deploy em, por exemplo, Vercel quando precisar.
+Se vocêÂª êÂ© um empreendedor solo, pode usar o Tailscale para acessar o Paperclip de qualquer lugar. Depois pode fazer deploy em, por exemplo, Vercel quando precisar.
 
-**Posso rodar mÃºltiplas empresas?**
-Sim. Um Ãºnico deploy pode rodar um nÃºmero ilimitado de empresas com isolamento completo de dados.
+**Posso rodar mêÂºltiplas empresas?**
+Sim. Um êÂºnico deploy pode rodar um nêÂºmero ilimitado de empresas com isolamento completo de dados.
 
-**Como o Paperclip Ã© diferente de agentes como OpenClaw ou Claude Code?**
-O Paperclip _usa_ esses agentes. Ele os orquestra em uma empresa â€” com organogramas, orÃ§amentos, metas, governanÃ§a e responsabilizaÃ§Ã£o.
+**Como o Paperclip êÂ© diferente de agentes como OpenClaw ou Claude Code?**
+O Paperclip _usa_ esses agentes. Ele os orquestra em uma empresa ê¢â¬â com organogramas, orêÂ§amentos, metas, governanêÂ§a e responsabilizaêÂ§êÂ£o.
 
 **Por que usar o Paperclip em vez de apontar meu OpenClaw para o Asana ou Trello?**
-A orquestraÃ§Ã£o de agentes tem sutilezas em como vocÃª coordena quem tem trabalho em checkout, como manter sessÃµes, monitorar custos, estabelecer governanÃ§a â€” o Paperclip faz isso por vocÃª.
+A orquestraêÂ§êÂ£o de agentes tem sutilezas em como vocêÂª coordena quem tem trabalho em checkout, como manter sessêÂµes, monitorar custos, estabelecer governanêÂ§a ê¢â¬â o Paperclip faz isso por vocêÂª.
 
-(Traga-seu-prÃ³prio-sistema-de-tickets estÃ¡ no Roadmap)
+(Traga-seu-prêÂ³prio-sistema-de-tickets estêÂ¡ no Roadmap)
 
 **Os agentes rodam continuamente?**
-Por padrÃ£o, agentes rodam em heartbeats agendados e triggers baseados em eventos (atribuiÃ§Ã£o de tarefa, @menÃ§Ãµes). VocÃª tambÃ©m pode integrar agentes contÃ­nuos como o OpenClaw. VocÃª traz seu agente e o Paperclip coordena.
+Por padrêÂ£o, agentes rodam em heartbeats agendados e triggers baseados em eventos (atribuiêÂ§êÂ£o de tarefa, @menêÂ§êÂµes). VocêÂª tambêÂ©m pode integrar agentes contêÂ­nuos como o OpenClaw. VocêÂª traz seu agente e o Paperclip coordena.
 
 <br/>
 
@@ -416,10 +416,10 @@ pnpm dev              # Dev completo (API + UI, modo watch)
 pnpm dev:once         # Dev completo sem file watching
 pnpm dev:server       # Apenas servidor
 pnpm build            # Build completo
-pnpm typecheck        # VerificaÃ§Ã£o de tipos
+pnpm typecheck        # VerificaêÂ§êÂ£o de tipos
 pnpm test:run         # Rodar testes
-pnpm db:generate      # Gerar migraÃ§Ã£o do DB
-pnpm db:migrate       # Aplicar migraÃ§Ãµes
+pnpm db:generate      # Gerar migraêÂ§êÂ£o do DB
+pnpm db:migrate       # Aplicar migraêÂ§êÂµes
 ```
 
 Veja [doc/DEVELOPING.md](doc/DEVELOPING.md) para o guia completo de desenvolvimento.
@@ -428,20 +428,20 @@ Veja [doc/DEVELOPING.md](doc/DEVELOPING.md) para o guia completo de desenvolvime
 
 ## Roadmap
 
-- âœ… Sistema de plugins (ex: adicionar base de conhecimento, tracing customizado, filas, etc)
-- âœ… Agentes OpenClaw / estilo claw
-- âœ… companies.sh - importar e exportar organizaÃ§Ãµes inteiras
-- âœ… ConfiguraÃ§Ãµes fÃ¡ceis via AGENTS.md
-- âœ… Gerenciador de Skills
-- âœ… Rotinas Agendadas
-- âœ… OrÃ§amentos Aprimorados
-- âšª Artefatos & Deploys
-- âšª Chat com CEO
-- âšª MODO MAXIMIZADOR
-- âšª MÃºltiplos UsuÃ¡rios Humanos
-- âšª Agentes Cloud / Sandbox (ex: Cursor / e2b)
-- âšª Deploys em nuvem
-- âšª App Desktop
+- ê¢Åâ¦ Sistema de plugins (ex: adicionar base de conhecimento, tracing customizado, filas, etc)
+- ê¢Åâ¦ Agentes OpenClaw / estilo claw
+- ê¢Åâ¦ companies.sh - importar e exportar organizaêÂ§êÂµes inteiras
+- ê¢Åâ¦ ConfiguraêÂ§êÂµes fêÂ¡ceis via AGENTS.md
+- ê¢Åâ¦ Gerenciador de Skills
+- ê¢Åâ¦ Rotinas Agendadas
+- ê¢Åâ¦ OrêÂ§amentos Aprimorados
+- ê¢Å¡Âª Artefatos & Deploys
+- ê¢Å¡Âª Chat com CEO
+- ê¢Å¡Âª MODO MAXIMIZADOR
+- ê¢Å¡Âª MêÂºltiplos UsuêÂ¡rios Humanos
+- ê¢Å¡Âª Agentes Cloud / Sandbox (ex: Cursor / e2b)
+- ê¢Å¡Âª Deploys em nuvem
+- ê¢Å¡Âª App Desktop
 
 <br/>
 
@@ -451,23 +451,23 @@ Encontre plugins e mais em [awesome-paperclip](https://github.com/gsxdsm/awesome
 
 ## Contribuindo
 
-ContribuiÃ§Ãµes sÃ£o bem-vindas. Veja o [guia de contribuiÃ§Ã£o](CONTRIBUTING.md) para detalhes.
+ContribuiêÂ§êÂµes sêÂ£o bem-vindas. Veja o [guia de contribuiêÂ§êÂ£o](CONTRIBUTING.md) para detalhes.
 
 <br/>
 
 ## Comunidade
 
-- [Discord](https://discord.gg/m4HZY7xNG3) â€” Junte-se Ã  comunidade
-- [GitHub Issues](https://github.com/paperclipai/paperclip/issues) â€” bugs e pedidos de funcionalidades
-- [GitHub Discussions](https://github.com/paperclipai/paperclip/discussions) â€” ideias e RFCs
+- [Discord](https://discord.gg/m4HZY7xNG3) ê¢â¬â Junte-se êÂ  comunidade
+- [GitHub Issues](https://github.com/paperclipai/paperclip/issues) ê¢â¬â bugs e pedidos de funcionalidades
+- [GitHub Discussions](https://github.com/paperclipai/paperclip/discussions) ê¢â¬â ideias e RFCs
 
 <br/>
 
-## LicenÃ§a
+## LicenêÂ§a
 
 MIT &copy; 2026 Paperclip
 
-## HistÃ³rico de Estrelas
+## HistêÂ³rico de Estrelas
 
 [![Star History Chart](https://api.star-history.com/image?repos=paperclipai/paperclip&type=date&legend=top-left)](https://www.star-history.com/?repos=paperclipai%2Fpaperclip&type=date&legend=top-left)
 
@@ -476,7 +476,7 @@ MIT &copy; 2026 Paperclip
 ---
 
 <p align="center">
-  <img src="doc/assets/dashboard-preview.png" alt="Paperclip â€” Painel de GestÃ£o" width="720" />
+  <img src="doc/assets/dashboard-preview.png" alt="Paperclip ê¢â¬â Painel de GestêÂ£o" width="720" />
 </p>
 
 <p align="center">
@@ -484,9 +484,9 @@ MIT &copy; 2026 Paperclip
 </p>
 
 <p align="center">
-  <sub>Open source sob MIT. Feito para quem quer administrar empresas, nÃ£o ficar de babÃ¡ de agentes.</sub>
+  <sub>Open source sob MIT. Feito para quem quer administrar empresas, nêÂ£o ficar de babêÂ¡ de agentes.</sub>
 </p>
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto  - ARCKHÉe

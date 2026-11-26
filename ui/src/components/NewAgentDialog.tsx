@@ -196,7 +196,7 @@ export function NewAgentDialog() {
                   Voltar
                 </button>
                 <p className="text-sm text-muted-foreground">
-                  Escolha o tipo de adaptador para configuração avançada.
+                  Escolha o tipo de adaptador para configuraçêo avançada.
                 </p>
               </div>
 

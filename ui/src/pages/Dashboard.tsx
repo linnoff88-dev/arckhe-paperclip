@@ -194,7 +194,7 @@ export function Dashboard() {
           <div className="flex items-center gap-2.5">
             <Bot className="h-4 w-4 text-amber-600 dark:text-amber-400 shrink-0" />
             <p className="text-sm text-amber-900 dark:text-amber-100">
-              Você não tem agentes.
+              Você nêo tem agentes.
             </p>
           </div>
           <button
@@ -276,15 +276,15 @@ export function Dashboard() {
               description={
                 <span>
                   {data.budgets.pendingApprovals > 0
-                    ? `${data.budgets.pendingApprovals} exceções de orçamento aguardando revisão`
-                    : "Aguardando revisão do conselho"}
+                    ? `${data.budgets.pendingApprovals} exceções de orçamento aguardando revisêo`
+                    : "Aguardando revisêo do conselho"}
                 </span>
               }
             />
           </div>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <ChartCard title="Atividade de Execução" subtitle="Últimos 14 dias">
+            <ChartCard title="Atividade de Execuçêo" subtitle="Últimos 14 dias">
               <RunActivityChart runs={runs ?? []} />
             </ChartCard>
             <ChartCard title="Tarefas por Prioridade" subtitle="Últimos 14 dias">

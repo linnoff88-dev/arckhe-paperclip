@@ -220,7 +220,7 @@ const statuses = [
   { value: "backlog", label: "Backlog", color: issueStatusText.backlog ?? issueStatusTextDefault },
   { value: "todo", label: "A Fazer", color: issueStatusText.todo ?? issueStatusTextDefault },
   { value: "in_progress", label: "Em Progresso", color: issueStatusText.in_progress ?? issueStatusTextDefault },
-  { value: "in_review", label: "Em Revisão", color: issueStatusText.in_review ?? issueStatusTextDefault },
+  { value: "in_review", label: "Em Revisêo", color: issueStatusText.in_review ?? issueStatusTextDefault },
   { value: "done", label: "Concluído", color: issueStatusText.done ?? issueStatusTextDefault },
 ];
 
@@ -232,7 +232,7 @@ const priorities = [
 ];
 
 const EXECUTION_WORKSPACE_MODES = [
-  { value: "shared_workspace", label: "Padrão do projeto" },
+  { value: "shared_workspace", label: "Padrêo do projeto" },
   { value: "isolated_workspace", label: "Novo workspace isolado" },
   { value: "reuse_existing", label: "Reutilizar workspace existente" },
 ] as const;
@@ -434,7 +434,7 @@ export function NewIssueDialog() {
         const issueRef = issue.identifier ?? issue.id;
         pushToast({
           title: `${issueRef} criada com avisos de upload`,
-          body: `${failures.length} arquivo${failures.length === 1 ? "" : "s"} não pôde${failures.length === 1 ? "" : "ram"} ser adicionado${failures.length === 1 ? "" : "s"}.`,
+          body: `${failures.length} arquivo${failures.length === 1 ? "" : "s"} nêo pôde${failures.length === 1 ? "" : "ram"} ser adicionado${failures.length === 1 ? "" : "s"}.`,
           tone: "warn",
           action: prefix
             ? { label: `Abrir ${issueRef}`, href: `/${prefix}/issues/${issueRef}` }
@@ -1154,7 +1154,7 @@ export function NewIssueDialog() {
               )}
               {executionWorkspaceMode === "reuse_existing" && selectedReusableExecutionWorkspace && (
                 <div className="text-[11px] text-muted-foreground">
-                  Reutilizando {selectedReusableExecutionWorkspace.name} de {selectedReusableExecutionWorkspace.branchName ?? selectedReusableExecutionWorkspace.cwd ?? "workspace de execução existente"}.
+                  Reutilizando {selectedReusableExecutionWorkspace.name} de {selectedReusableExecutionWorkspace.branchName ?? selectedReusableExecutionWorkspace.cwd ?? "workspace de execuçêo existente"}.
                 </div>
               )}
             </div>
@@ -1177,9 +1177,9 @@ export function NewIssueDialog() {
                   <InlineEntitySelector
                     value={assigneeModelOverride}
                     options={modelOverrideOptions}
-                    placeholder="Modelo padrão"
+                    placeholder="Modelo padrêo"
                     disablePortal
-                    noneLabel="Modelo padrão"
+                    noneLabel="Modelo padrêo"
                     searchPlaceholder="Buscar modelos..."
                     emptyMessage="Nenhum modelo encontrado."
                     onChange={setAssigneeModelOverride}
@@ -1245,7 +1245,7 @@ export function NewIssueDialog() {
               ref={descriptionEditorRef}
               value={description}
               onChange={setDescription}
-              placeholder="Adicionar descrição..."
+              placeholder="Adicionar descriçêo..."
               bordered={false}
               mentions={mentionOptions}
               contentClassName={cn("text-sm text-muted-foreground pb-12", expanded ? "min-h-[220px]" : "min-h-[120px]")}

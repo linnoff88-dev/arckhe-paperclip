@@ -75,7 +75,7 @@ export function RunActivityChart({ runs }: { runs: HeartbeatRun[] }) {
   const maxValue = Math.max(...Array.from(grouped.values()).map(v => v.succeeded + v.failed + v.other), 1);
   const hasData = Array.from(grouped.values()).some(v => v.succeeded + v.failed + v.other > 0);
 
-  if (!hasData) return <p className="text-xs text-muted-foreground">Nenhuma execução ainda</p>;
+  if (!hasData) return <p className="text-xs text-muted-foreground">Nenhuma execuçêo ainda</p>;
 
   return (
     <div>
@@ -170,7 +170,7 @@ const statusColors: Record<string, string> = {
 const statusLabels: Record<string, string> = {
   todo: "A Fazer",
   in_progress: "Em Progresso",
-  in_review: "Em Revisão",
+  in_review: "Em Revisêo",
   done: "Concluído",
   blocked: "Bloqueado",
   cancelled: "Cancelado",
@@ -237,7 +237,7 @@ export function SuccessRateChart({ runs }: { runs: HeartbeatRun[] }) {
   }
 
   const hasData = Array.from(grouped.values()).some(v => v.total > 0);
-  if (!hasData) return <p className="text-xs text-muted-foreground">Nenhuma execução ainda</p>;
+  if (!hasData) return <p className="text-xs text-muted-foreground">Nenhuma execuçêo ainda</p>;
 
   return (
     <div>

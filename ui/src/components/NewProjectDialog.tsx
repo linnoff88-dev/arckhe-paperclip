@@ -272,7 +272,7 @@ export function NewProjectDialog() {
             ref={descriptionEditorRef}
             value={description}
             onChange={setDescription}
-            placeholder="Adicionar descrição..."
+            placeholder="Adicionar descriçêo..."
             bordered={false}
             mentions={mentionOptions}
             contentClassName={cn("text-sm text-muted-foreground", expanded ? "min-h-[220px]" : "min-h-[120px]")}
@@ -314,7 +314,7 @@ export function NewProjectDialog() {
                   <HelpCircle className="h-3 w-3 text-muted-foreground/50 cursor-help" />
                 </TooltipTrigger>
                 <TooltipContent side="top" className="max-w-[240px] text-xs">
-                  Defina um caminho absoluto nesta máquina onde os agentes locais irão ler e gravar arquivos para este projeto.
+                  Defina um caminho absoluto nesta máquina onde os agentes locais irêo ler e gravar arquivos para este projeto.
                 </TooltipContent>
               </Tooltip>
             </div>
