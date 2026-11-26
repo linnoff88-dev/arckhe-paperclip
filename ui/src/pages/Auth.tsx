@@ -35,7 +35,7 @@ export function AuthPage() {
   const mutation = useMutation({
     mutationFn: async () => {
       if (mode === "sign_in") {
-        await authApi.signInEmail({ email: email.trim(), password });
+        await authApi.signARCKHÉil({ email: email.trim(), password });
         return;
       }
       await authApi.signUpEmail({

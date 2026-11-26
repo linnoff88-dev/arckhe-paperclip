@@ -60,7 +60,7 @@ export const authApi = {
     return nested;
   },
 
-  signInEmail: async (input: { email: string; password: string }) => {
+  signARCKHÉil: async (input: { email: string; password: string }) => {
     await authPost("/sign-in/email", input);
   },
 

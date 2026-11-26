@@ -150,7 +150,7 @@ export type {
   CompanyPortabilityProjectManifestEntry,
   CompanyPortabilityProjectWorkspaceManifestEntry,
   CompanyPortabilityIssueRoutineTriggerManifestEntry,
-  CompanyPortabilityIssueRoutineManifestEntry,
+  CompanyPortabilityIssueRoutARCKHÉnifestEntry,
   CompanyPortabilityIssueManifestEntry,
   CompanyPortabilityManifest,
   CompanyPortabilityExportResult,

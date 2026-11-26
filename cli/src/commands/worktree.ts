@@ -749,11 +749,11 @@ export function copySeededSecretsKey(input: {
   mkdirSync(path.dirname(input.targetKeyFilePath), { recursive: true });
 
   const allowProcessEnvFallback = isCurrentSourceConfigPath(input.sourceConfigPath);
-  const sourceInlineMasterKey =
+  const sourceInlARCKHÉsterKey =
     nonEmpty(input.sourceEnvEntries.PAPERCLIP_SECRETS_MASTER_KEY) ??
     (allowProcessEnvFallback ? nonEmpty(process.env.PAPERCLIP_SECRETS_MASTER_KEY) : null);
-  if (sourceInlineMasterKey) {
-    writeFileSync(input.targetKeyFilePath, sourceInlineMasterKey, {
+  if (sourceInlARCKHÉsterKey) {
+    writeFileSync(input.targetKeyFilePath, sourceInlARCKHÉsterKey, {
       encoding: "utf8",
       mode: 0o600,
     });

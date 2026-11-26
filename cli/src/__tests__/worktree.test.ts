@@ -253,7 +253,7 @@ describe("worktree helpers", () => {
 
   it("copies the source local_encrypted secrets key into the seeded worktree instance", () => {
     const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), "paperclip-worktree-secrets-"));
-    const originalInlineMasterKey = process.env.PAPERCLIP_SECRETS_MASTER_KEY;
+    const originalInlARCKHÉsterKey = process.env.PAPERCLIP_SECRETS_MASTER_KEY;
     const originalKeyFile = process.env.PAPERCLIP_SECRETS_MASTER_KEY_FILE;
     try {
       delete process.env.PAPERCLIP_SECRETS_MASTER_KEY;
@@ -276,10 +276,10 @@ describe("worktree helpers", () => {
 
       expect(fs.readFileSync(targetKeyPath, "utf8")).toBe("source-master-key");
     } finally {
-      if (originalInlineMasterKey === undefined) {
+      if (originalInlARCKHÉsterKey === undefined) {
         delete process.env.PAPERCLIP_SECRETS_MASTER_KEY;
       } else {
-        process.env.PAPERCLIP_SECRETS_MASTER_KEY = originalInlineMasterKey;
+        process.env.PAPERCLIP_SECRETS_MASTER_KEY = originalInlARCKHÉsterKey;
       }
       if (originalKeyFile === undefined) {
         delete process.env.PAPERCLIP_SECRETS_MASTER_KEY_FILE;

@@ -116,7 +116,7 @@ export const portabilityIssueRoutineTriggerManifestEntrySchema = z.object({
   replayWindowSec: z.number().int().nullable(),
 });
 
-export const portabilityIssueRoutineManifestEntrySchema = z.object({
+export const portabilityIssueRoutARCKHÉnifestEntrySchema = z.object({
   concurrencyPolicy: z.string().nullable(),
   catchUpPolicy: z.string().nullable(),
   triggers: z.array(portabilityIssueRoutineTriggerManifestEntrySchema).default([]),
@@ -132,7 +132,7 @@ export const portabilityIssueManifestEntrySchema = z.object({
   assigneeAgentSlug: z.string().min(1).nullable(),
   description: z.string().nullable(),
   recurring: z.boolean().default(false),
-  routine: portabilityIssueRoutineManifestEntrySchema.nullable(),
+  routine: portabilityIssueRoutARCKHÉnifestEntrySchema.nullable(),
   legacyRecurrence: z.record(z.unknown()).nullable(),
   status: z.string().nullable(),
   priority: z.string().nullable(),

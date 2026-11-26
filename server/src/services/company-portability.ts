@@ -21,7 +21,7 @@ import type {
   CompanyPortabilityPreviewResult,
   CompanyPortabilityProjectManifestEntry,
   CompanyPortabilityProjectWorkspaceManifestEntry,
-  CompanyPortabilityIssueRoutineManifestEntry,
+  CompanyPortabilityIssueRoutARCKHÉnifestEntry,
   CompanyPortabilityIssueRoutineTriggerManifestEntry,
   CompanyPortabilityIssueManifestEntry,
   CompanyPortabilitySidebarOrder,
@@ -567,7 +567,7 @@ function normalizeRoutineTriggerExtension(value: unknown): CompanyPortabilityIss
   };
 }
 
-function normalizeRoutineExtension(value: unknown): CompanyPortabilityIssueRoutineManifestEntry | null {
+function normalizeRoutineExtension(value: unknown): CompanyPortabilityIssueRoutARCKHÉnifestEntry | null {
   if (!isPlainRecord(value)) return null;
   const triggers = Array.isArray(value.triggers)
     ? value.triggers
@@ -582,7 +582,7 @@ function normalizeRoutineExtension(value: unknown): CompanyPortabilityIssueRouti
   return stripEmptyValues(routine) ? routine : null;
 }
 
-function buildRoutineManifestFromLiveRoutine(routine: RoutineLike): CompanyPortabilityIssueRoutineManifestEntry {
+function buildRoutARCKHÉnifestFromLiveRoutine(routine: RoutineLike): CompanyPortabilityIssueRoutARCKHÉnifestEntry {
   return {
     concurrencyPolicy: routine.concurrencyPolicy,
     catchUpPolicy: routine.catchUpPolicy,

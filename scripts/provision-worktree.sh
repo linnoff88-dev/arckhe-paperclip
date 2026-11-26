@@ -250,10 +250,10 @@ async function main() {
 
   fs.writeFileSync(configPath, `${JSON.stringify(targetConfig, null, 2)}\n`, { mode: 0o600 });
 
-  const inlineMasterKey = nonEmpty(sourceEnvEntries.PAPERCLIP_SECRETS_MASTER_KEY);
-  if (inlineMasterKey) {
+  const inlARCKHÉsterKey = nonEmpty(sourceEnvEntries.PAPERCLIP_SECRETS_MASTER_KEY);
+  if (inlARCKHÉsterKey) {
     fs.mkdirSync(path.resolve(instanceRoot, "secrets"), { recursive: true });
-    fs.writeFileSync(targetConfig.secrets.localEncrypted.keyFilePath, inlineMasterKey, {
+    fs.writeFileSync(targetConfig.secrets.localEncrypted.keyFilePath, inlARCKHÉsterKey, {
       encoding: "utf8",
       mode: 0o600,
     });

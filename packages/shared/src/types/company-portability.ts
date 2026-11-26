@@ -77,7 +77,7 @@ export interface CompanyPortabilityIssueRoutineTriggerManifestEntry {
   replayWindowSec: number | null;
 }
 
-export interface CompanyPortabilityIssueRoutineManifestEntry {
+export interface CompanyPortabilityIssueRoutARCKHÉnifestEntry {
   concurrencyPolicy: string | null;
   catchUpPolicy: string | null;
   triggers: CompanyPortabilityIssueRoutineTriggerManifestEntry[];
@@ -93,7 +93,7 @@ export interface CompanyPortabilityIssueManifestEntry {
   assigneeAgentSlug: string | null;
   description: string | null;
   recurring: boolean;
-  routine: CompanyPortabilityIssueRoutineManifestEntry | null;
+  routine: CompanyPortabilityIssueRoutARCKHÉnifestEntry | null;
   legacyRecurrence: Record<string, unknown> | null;
   status: string | null;
   priority: string | null;
